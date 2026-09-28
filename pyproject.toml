@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-knowledge-graph-entity-relation-triplet-extractor-skill"
+version = "1.0.0"
+description = "Entity-relation-object triplet extractor and multi-hop path reasoning kernel with Cypher and JSON-LD graph generation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "GenPark AI", email = "engineering@genpark.ai"}]
+keywords = ["ai-agent", "mcp", "memory", "rag", "zero-dependency"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://genpark.ai/mcp"
+Repository = "https://github.com/alphaparkinc/genpark-knowledge-graph-entity-relation-triplet-extractor-skill"
