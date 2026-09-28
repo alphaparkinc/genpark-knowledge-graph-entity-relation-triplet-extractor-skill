@@ -1,0 +1,38 @@
+{
+  "name": "genpark-knowledge-graph-entity-relation-triplet-extractor-skill",
+  "version": "1.0.0",
+  "description": "Entity-relation-object triplet extractor and multi-hop path reasoning kernel with Cypher and JSON-LD graph generation.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "knowledge-graph",
+    "triplet-extraction",
+    "graph-rag",
+    "multi-hop",
+    "cypher",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "extract_from_text",
+      "description": "Extract (Subject, Predicate, Object) triplets from unstructured text."
+    },
+    {
+      "name": "add_triplet",
+      "description": "Add explicit relation triplet to knowledge graph."
+    },
+    {
+      "name": "find_shortest_path",
+      "description": "Execute BFS shortest multi-hop path query between two entities."
+    },
+    {
+      "name": "export_cypher",
+      "description": "Export graph as Neo4j Cypher MERGE statements."
+    },
+    {
+      "name": "run_benchmark_graph_extractor",
+      "description": "Execute knowledge graph verification benchmark suite."
+    }
+  ]
+}
